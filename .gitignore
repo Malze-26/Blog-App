@@ -1,0 +1,63 @@
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Database Configuration (if you have backup)
+config/database.php
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+error_log
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Uploaded Files (if you add file upload feature later)
+uploads/
+images/uploads/
+
+# Backup Files
+*.bak
+*.backup
+*.old
+
+# Composer (if you use it later)
+vendor/
+composer.lock
+
+# Node Modules (if you add npm later)
+node_modules/
+package-lock.json
+
+# PHP Cache
+*.cache
+cache/
+
+# Session Files
+sessions/
+
+# Database Dumps
+*.sql.gz
+*.sql.zip
+backup_*.sql
+
+# System Files
+.htaccess.local
+php_errors.log
